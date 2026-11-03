@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TecBras S.A. – Soberania Digital Nacional</title>
+  <meta name="description" content="Projeto de criação da TecBras S.A., Empresa Brasileira de Tecnologia, Mídias Sociais e Soluções Digitais, para a soberania digital nacional.">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Ir para o conteúdo</a>
+
+<!-- ============ MENU ============ -->
+<header class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="logo" aria-label="TecBras S.A. – início">
+      <svg viewBox="0 0 220 48" role="img" aria-label="TecBras S.A." xmlns="http://www.w3.org/2000/svg">
+        <image href="favicon.png" x="2" y="4" width="40" height="40" preserveAspectRatio="xMidYMid meet"/>
+        <text x="52" y="33" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800" fill="#fff">Tec<tspan fill="#ff4a4f">Bras</tspan><tspan font-weight="500" font-size="18" fill="#cfcfcf"> S.A.</tspan></text>
+      </svg>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="menu" class="menu" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#cenario">Cenário</a></li>
+        <li><a href="#problema">O Problema</a></li>
+        <li><a href="#solucao">Solução</a></li>
+        <li><a href="#publico">Público-Alvo</a></li>
+        <li><a href="#orcamento">Orçamento</a></li>
+        <li><a href="#consolidacao">Consolidação</a></li>
+        <li><a href="textoProjeto.pdf" download="textoProjeto.pdf" class="download-link">Download</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="progress" id="progress"></div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="hero">
+  <svg class="hero-bg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <radialGradient id="hg" cx="50%" cy="50%" r="50%">
+        <stop offset="0" stop-color="#d71920" stop-opacity=".55"/>
+        <stop offset="1" stop-color="#d71920" stop-opacity="0"/>
+      </radialGradient>
+    </defs>
+    <circle cx="400" cy="250" r="240" fill="url(#hg)"/>
+    <g fill="none" stroke="#ff4a4f" stroke-opacity=".5" stroke-width="1.5">
+      <circle cx="400" cy="250" r="110"/>
+      <circle cx="400" cy="250" r="170" stroke-dasharray="4 8"/>
+      <circle cx="400" cy="250" r="230" stroke-opacity=".25"/>
+      <ellipse cx="400" cy="250" rx="230" ry="80"/>
+      <ellipse cx="400" cy="250" rx="80" ry="230"/>
+      <path d="M170 250h460M400 20v460" stroke-opacity=".3"/>
+    </g>
+    <g stroke="#ffffff" stroke-opacity=".25" stroke-width="1">
+      <path d="M120 120L260 190 400 250 560 170 690 110M200 400L330 330 400 250 520 340 650 390M260 190L330 330M560 170L520 340"/>
+    </g>
+    <g fill="#fff">
+      <circle class="pulse" cx="120" cy="120" r="5"/><circle class="pulse" cx="260" cy="190" r="6"/>
+      <circle class="pulse" cx="560" cy="170" r="6"/><circle class="pulse" cx="690" cy="110" r="5"/>
+      <circle class="pulse" cx="200" cy="400" r="5"/><circle class="pulse" cx="330" cy="330" r="6"/>
+      <circle class="pulse" cx="520" cy="340" r="6"/><circle class="pulse" cx="650" cy="390" r="5"/>
+    </g>
+    <circle cx="400" cy="250" r="16" fill="#d71920"/><circle cx="400" cy="250" r="30" fill="none" stroke="#d71920" stroke-width="2"/>
+  </svg>
+  <div class="hero-content">
+    <p class="eyebrow">Soberania Digital Nacional</p>
+    <h1>Tec<span>Bras</span> S.A.</h1>
+    <p class="hero-text">A TecBras (Empresa Brasileira de Tecnologia, Mídias Sociais e Soluções Digitais S.A.) é proposta como uma Sociedade de Economia Mista sob controle estatal, destinada a oferecer serviços de gestão de dados, mídias sociais, soluções digitais e inteligência artificial em infraestrutura 100% nacional, em conformidade com a LGPD, com algoritmos transparentes e auditáveis, para reduzir a dependência brasileira das Big Techs, restituir a autodeterminação informativa, assegurar a cidadania digital e oferecer uma alternativa pública, transparente e soberana a cidadãos, empresas e instituições, sem impedir a atuação de concorrentes que cumpram a legislação nacional.</p>
+    <a class="btn" href="#cenario">Conhecer o projeto</a>
+  </div>
+</section>
+
+<!-- ============ CENÁRIO ============ -->
+<section id="cenario" class="section">
+  <div class="container">
+    <div class="section-head">
+      <svg class="sec-ico" viewBox="0 0 96 96" aria-hidden="true"><circle cx="48" cy="48" r="40" fill="#111"/><circle cx="48" cy="48" r="28" fill="none" stroke="#d71920" stroke-width="4"/><path d="M8 48h80M48 8c-20 20-20 60 0 80M48 8c20 20 20 60 0 80" fill="none" stroke="#fff" stroke-width="2.5"/><circle cx="72" cy="22" r="9" fill="#d71920"/></svg>
+      <div><span class="num">01</span><h2>Cenário Atual</h2></div>
+    </div>
+    <p class="lead">O ecossistema digital brasileiro encontra-se em um estado de profunda dependência estrutural com relação às grandes corporações multinacionais de tecnologia, principalmente com as Big Techs, concentradas predominantemente nos Estados Unidos e na União Europeia. Plataformas de redes sociais, serviços de mensageria instantânea, motores de busca, infraestrutura de nuvem e ferramentas de inteligência artificial generativa (Meta, Google, OpenAI, Anthropic, xAI, Microsoft, Amazon etc.) operam como a infraestrutura primária de comunicação no debate público, gestão da informação e nas transações econômicas do Brasil.</p>
+    <p class="lead">Essa vulnerabilidade manifesta-se nos seguintes aspectos centrais:</p>
+
+    <div class="cards three">
+      <article class="card flip-card" tabindex="0" role="button" aria-pressed="false">
+        <h3>a) Centralização do Tráfego e das Comunicações</h3>
+        <p class="hint">Clique para ver o detalhe</p>
+        <p class="more">A quase totalidade do ecossistema de redes sociais e mensageria no Brasil é dominada por infraestruturas estrangeiras cujos servidores principais e centros de processamento estão situados fora da jurisdição nacional.</p>
+      </article>
+      <article class="card flip-card" tabindex="0" role="button" aria-pressed="false">
+        <h3>b) Dependência Institucional</h3>
+        <p class="hint">Clique para ver o detalhe</p>
+        <p class="more">Órgãos públicos, empresas privadas nacionais e cidadãos utilizam canais privados internacionais para veiculação de atos governamentais, comunicação estratégica e prestação de serviços essenciais, sem que haja garantias contratuais e jurídicas de sigilo, integridade, estabilidade ou continuidade.</p>
+      </article>
+      <article class="card flip-card" tabindex="0" role="button" aria-pressed="false">
+        <h3>c) Transferência Internacional de Dados</h3>
+        <p class="hint">Clique para ver o detalhe</p>
+        <p class="more">Interações cotidianas, hábitos de consumo, preferências políticas, registros de localização e dados comportamentais da população brasileira são continuamente transferidos para datacenters sujeitos a legislações estrangeiras, solapando os termos da LGPD e demais regulamentações brasileiras em torno desse tema.</p>
+      </article>
+    </div>
+
+    <h3 class="sub">Contexto introdutório do projeto</h3>
+    <div class="accordion" data-single="false">
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">Empresa Brasileira de Tecnologia para a Soberania Digital Nacional</button>
+        <div class="acc-panel"><div>
+          <p>A transformação digital acelerada reconfigurou as dinâmicas sociais, econômicas e políticas contemporâneas, convertendo a infraestrutura de dados e os canais digitais de comunicação em ativos estratégicos indispensáveis para a soberania de qualquer nação.</p>
+        </div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">“Os dados são o petróleo do futuro”</button>
+        <div class="acc-panel"><div>
+          <p>Costuma-se dizer que “os dados são o petróleo do futuro”. Essa frase de efeito é frequentemente utilizada pela comunidade científica e pela indústria da tecnologia da informação como uma metáfora necessária para enfatizar o nível de importância que os dados ocupam em todos os setores da sociedade. Tal fenômeno aponta para a tendência de que se trata de um ativo extremamente valioso e determinante para os rumos da economia atual e futura. Nesse sentido, são inegáveis os pontos de similaridade dessa analogia com o mineral fóssil que foi a matéria-prima mais importante para impulsionar a indústria e toda a economia do século passado. Portanto, na qualidade de ativo intangível, o dado configura-se como um dos bens mais preciosos para a economia digital que domina os mercados neste momento da história.</p>
+        </div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">Dados, infraestrutura e o estágio científico atual</button>
+        <div class="acc-panel"><div>
+          <p>Na circunscrição dos dados como matéria-prima da informação, da comunicação e do conhecimento, tornou-se fundamental considerar o atual estágio de desenvolvimento científico. Assim, todos os complexos aparatos lógicos e físicos, para além das respectivas infraestruturas exigidas, assumiram papel crítico para dar suporte e viabilizar a oferta do universo de soluções que a tecnologia da informação e comunicação tem disponibilizado mundialmente em escala exponencial.</p>
+          <p>Essa profusão de milagres que o acelerado avanço tecnológico proporciona tem se materializado nas revoluções que a transformação digital entrega em variados setores da economia e no âmbito governamental. Esse suporte tem sido garantido de forma crescente com o advento da infraestrutura de centros de processamento de dados (datacenters) cada vez mais robustos e seguros, computação distribuída, soluções de <button class="term" data-term="bigdata">big data</button>, modelos de plataformas e soluções de softwares como serviço, cibersegurança, governança e gestão de <button class="term" data-term="tic">TIC</button> e os avanços disruptivos proporcionados pelo domínio da Inteligência Artificial (IA).</p>
+        </div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">Dependência das Big Techs e a proposta do projeto</button>
+        <div class="acc-panel"><div>
+          <p>No contexto brasileiro, essa expansão ocorreu de forma assimétrica, resultando em uma severa dependência tecnológica perante megacorporações transnacionais, conhecidas como <button class="term" data-term="bigtechs">Big Techs</button>.</p>
+          <p>A proposta de projeto apresentada neste documento aborda os impactos dessa vulnerabilidade sobre a segurança dos dados pessoais dos cidadãos, sobre a autonomia das instituições públicas e a própria integridade do debate democrático, com base no ordenamento jurídico nacional e nos ditames da Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018). Diante de riscos contínuos de manipulação informacional, extração predatória de dados e submissão a jurisdições estrangeiras, este documento fundamenta e estrutura a criação da TecBras (Empresa Brasileira de Tecnologia, Mídias Sociais e Soluções Digitais S.A.). Concebida como uma Sociedade de Economia Mista sob controle estatal e com forte articulação ao ecossistema nacional de tecnologia, a TecBras surge como uma solução robusta e viável para restituir a autodeterminação informativa ao Brasil, assegurar a cidadania digital e prover uma alternativa pública, transparente e soberana para os cidadãos e instituições brasileiras.</p>
+        </div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">Livre concorrência: o que a TecBras não restringe</button>
+        <div class="acc-panel"><div>
+          <p>É importante ressaltar que a presença da TecBras como alternativa de organização genuinamente nacional para oferecer soluções de TIC ao público brasileiro não restringirá nem impedirá a oferta de produtos e serviços de mesma natureza pelas demais empresas concorrentes desse segmento de mercado. Até mesmo aquelas empresas que atuam em âmbito internacional poderão oferecer seus serviços no Brasil, desde que estejam alinhadas às leis e aos regulamentos nacionais e cumpram todos os requisitos e exigências de conformidade com o ordenamento jurídico pátrio.</p>
+        </div></div>
+      </div>
+    </div>
+    <p class="note">Dica: clique nos termos destacados para ver a definição (nota de rodapé do documento).</p>
+  </div>
+</section>
+
+<!-- ============ PROBLEMA ============ -->
+<section id="problema" class="section dark">
+  <div class="container">
+    <div class="section-head">
+      <svg class="sec-ico" viewBox="0 0 96 96" aria-hidden="true"><path d="M48 8L90 84H6Z" fill="#d71920"/><rect x="44" y="34" width="8" height="26" rx="4" fill="#fff"/><circle cx="48" cy="70" r="5" fill="#fff"/></svg>
+      <div><span class="num">02</span><h2>O Problema</h2></div>
+    </div>
+    <p class="lead">A hegemonia das Big Techs no ambiente digital brasileiro impõe severos riscos à segurança nacional, à integridade institucional, à autodeterminação informativa e ao cumprimento do ordenamento jurídico do país.</p>
+
+    <div class="tabs" id="tabs-problema">
+      <div class="tab-list" role="tablist" aria-label="Subtópicos do problema">
+        <button role="tab" aria-selected="true" class="tab-btn" data-tab="p1">2.1 Soberania</button>
+        <button role="tab" aria-selected="false" class="tab-btn" data-tab="p2">2.2 Manipulação</button>
+        <button role="tab" aria-selected="false" class="tab-btn" data-tab="p3">2.3 LGPD</button>
+      </div>
+
+      <div class="tab-panel active" id="p1" role="tabpanel">
+        <svg class="tab-ico" viewBox="0 0 120 80" aria-hidden="true"><rect x="10" y="40" width="30" height="30" fill="#d71920"/><rect x="45" y="20" width="30" height="50" fill="#fff"/><rect x="80" y="30" width="30" height="40" fill="#8a0f14"/><path d="M5 72h110" stroke="#fff" stroke-width="2"/><circle cx="60" cy="10" r="6" fill="#ff4a4f"/></svg>
+        <h3>2.1. Vulnerabilidade da Soberania Nacional e Digital</h3>
+        <p>A dependência de infraestruturas críticas sob controle de empresas estrangeiras expõe o Estado brasileiro à insegurança tecnológica, riscos de desativação abrupta de serviços e espionagem de dados estratégicos estatais e corporativos. A jurisdição extraterritorial de legislações dos EUA permite que agências estrangeiras acessem dados de cidadãos brasileiros sem observância do devido processo legal interno.</p>
+      </div>
+
+      <div class="tab-panel" id="p2" role="tabpanel">
+        <svg class="tab-ico" viewBox="0 0 120 80" aria-hidden="true"><path d="M10 60l25-30 20 20 25-35 30 40" fill="none" stroke="#d71920" stroke-width="5" stroke-linejoin="round"/><circle cx="35" cy="30" r="5" fill="#fff"/><circle cx="55" cy="50" r="5" fill="#fff"/><circle cx="80" cy="15" r="5" fill="#fff"/></svg>
+        <h3>2.2. Manipulação Informacional e Moderação Unilateral</h3>
+        <p>Os algoritmos proprietários e opacos das Big Techs priorizam o engajamento baseado em conteúdos polarizadores, sensacionalistas e desinformativos. A moderação de conteúdo é exercida de forma unilateral e sem transparência, alinhada aos interesses econômicos, ideológicos e geopolíticos das sedes dessas empresas, afetando diretamente a integridade do debate político, da condução de ações na Suprema Corte e dos processos eleitorais no Brasil.</p>
+      </div>
+
+      <div class="tab-panel" id="p3" role="tabpanel">
+        <svg class="tab-ico" viewBox="0 0 120 80" aria-hidden="true"><path d="M60 5l40 14v24c0 18-16 30-40 36C36 73 20 61 20 43V19Z" fill="#d71920"/><path d="M42 40l13 13 24-26" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <h3>2.3. Violação ao Ordenamento Jurídico e à LGPD (Lei nº 13.709/2018)</h3>
+        <p>O modelo de negócios fundado no “capitalismo de vigilância” <button class="term" data-term="vigilancia">(?)</button> entra em colisão direta com os princípios da Lei Geral de Proteção de Dados (LGPD – Lei nº 13.709/2018):</p>
+        <div class="accordion" data-single="true">
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">a) Princípios da Finalidade e Adequação (Art. 6º, I e II)</button>
+            <div class="acc-panel"><div><p>Tratamento de dados para finalidades genéricas de perfilamento e direcionamento comportamental sem consentimento inequívoco ou base legal legítima.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">b) Transferência Internacional de Dados (Art. 33 a 36)</button>
+            <div class="acc-panel"><div><p>Desafios recorrentes na garantia de que os países receptores ofereçam grau de proteção equivalente ao exigido pela legislação brasileira.</p></div></div>
+          </div>
+          <div class="acc-item">
+            <button class="acc-btn" aria-expanded="false">c) Transparência e Autonomia da ANPD</button>
+            <div class="acc-panel"><div><p>Descumprimento ou lentidão na resposta a ordens judiciais e determinações da Agência Nacional de Proteção de Dados (ANPD) e do Poder Judiciário brasileiro.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SOLUÇÃO ============ -->
+<section id="solucao" class="section">
+  <div class="container">
+    <div class="section-head">
+      <svg class="sec-ico" viewBox="0 0 96 96" aria-hidden="true"><circle cx="48" cy="40" r="26" fill="#d71920"/><path d="M36 40l9 9 17-18" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><rect x="38" y="70" width="20" height="8" rx="4" fill="#111"/><rect x="42" y="80" width="12" height="6" rx="3" fill="#111"/></svg>
+      <div><span class="num">03</span><h2>Proposta de Valor / Solução</h2></div>
+    </div>
+    <p class="lead">A solução proposta consiste na criação da TecBras (Empresa Brasileira de Tecnologia, Mídias Sociais e Soluções Digitais S.A.), uma corporação nacional voltada a assegurar a soberania digital e a autodeterminação informativa do país.</p>
+
+    <h3 class="sub">Sumário do Funcionamento</h3>
+    <figure class="funcionograma">
+      <button class="img-btn" data-modal-img="Funcionograma.png" aria-label="Ampliar o funcionograma da TecBras">
+        <img src="Funcionograma.png" alt="Funcionograma: proposta de funcionamento da TecBras" loading="lazy">
+        <span class="zoom">🔍 Clique para ampliar</span>
+      </button>
+      <figcaption>Funcionograma – proposta de funcionamento da TecBras.</figcaption>
+    </figure>
+
+    <h3 class="sub">Principais Pilares da Solução</h3>
+    <div class="accordion" data-single="false" id="pilares">
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">1. Infraestrutura 100% Nacional</button>
+        <div class="acc-panel"><div><p>Desenvolvimento, implantação e operação de plataforma de Inteligência Artificial (IA) genuinamente brasileira, oferta ampla de mídias e redes sociais, plataformas de mensageria e marketing digital com serviços de armazenamento e hospedagem exclusivamente em datacenters localizados no território nacional.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">2. Conformidade Nativa com a LGPD</button>
+        <div class="acc-panel"><div><p>Arquitetura alinhada aos padrões de segurança e privacidade, garantindo o controle total do cidadão sobre seus dados pessoais e banindo práticas abusivas de perfilamento comportamental e monetização indevida de dados.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">3. Algoritmos Transparentes e Auditáveis</button>
+        <div class="acc-panel"><div><p>Código-fonte e versionamento dos sistemas de recomendação auditável por órgãos governamentais e pela comunidade científica nacional, visando combater a desinformação sem cercear a liberdade de expressão legítima.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">4. Sistemas de Cibersegurança Avançados</button>
+        <div class="acc-panel"><div><p>Com a finalidade de garantir que o armazenamento e o tráfego de informações sejam protegidos com os mais sofisticados e seguros processos de identificação, autenticação e autorização para acesso e uso das ferramentas disponíveis na plataforma soberana.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">5. Articulação com o Ecossistema Estatal de TI</button>
+        <div class="acc-panel"><div>
+          <p>Atuação sinérgica e integrada com as estatais e órgãos públicos de tecnologia (clique em cada parceiro):</p>
+          <div class="chips" id="parceiros">
+            <button class="chip" data-modal="parc-serpro">Serpro e Dataprev</button>
+            <button class="chip" data-modal="parc-adm">Administração Pública</button>
+            <button class="chip" data-modal="parc-univ">Universidades, IFs e ICTs</button>
+            <button class="chip" data-modal="parc-iti">ITI</button>
+            <button class="chip" data-modal="parc-anpd">ANPD</button>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PÚBLICO ============ -->
+<section id="publico" class="section dark">
+  <div class="container">
+    <div class="section-head">
+      <svg class="sec-ico" viewBox="0 0 96 96" aria-hidden="true"><circle cx="30" cy="34" r="12" fill="#fff"/><circle cx="66" cy="34" r="12" fill="#d71920"/><path d="M8 78c0-16 10-26 22-26s22 10 22 26ZM44 78c0-16 10-26 22-26s22 10 22 26Z" fill="#fff" fill-opacity=".85"/></svg>
+      <div><span class="num">04</span><h2>Público-Alvo dos Serviços da TecBras</h2></div>
+    </div>
+    <p class="lead">A TecBras seria concebida para atender aos cidadãos brasileiros e à totalidade do ecossistema societário, corporativo e governamental do Brasil:</p>
+    <div class="cards four">
+      <button class="card audience" data-modal="pub-1">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="22" r="11" fill="#d71920"/><path d="M10 56c0-14 10-22 22-22s22 8 22 22Z" fill="#fff"/></svg>
+        <h3>1. Cidadãos Brasileiros</h3><span class="hint">Saiba mais ›</span>
+      </button>
+      <button class="card audience" data-modal="pub-2">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><path d="M32 6L6 22h52Z" fill="#d71920"/><rect x="12" y="26" width="6" height="24" fill="#fff"/><rect x="29" y="26" width="6" height="24" fill="#fff"/><rect x="46" y="26" width="6" height="24" fill="#fff"/><rect x="6" y="52" width="52" height="6" fill="#fff"/></svg>
+        <h3>2. Administração Pública Direta e Indireta</h3><span class="hint">Saiba mais ›</span>
+      </button>
+      <button class="card audience" data-modal="pub-3">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="10" y="14" width="30" height="42" fill="#fff"/><rect x="40" y="30" width="16" height="26" fill="#d71920"/><path d="M16 22h6M28 22h6M16 32h6M28 32h6M16 42h6M28 42h6" stroke="#111" stroke-width="3"/></svg>
+        <h3>3. Empresas Privadas Nacionais</h3><span class="hint">Saiba mais ›</span>
+      </button>
+      <button class="card audience" data-modal="pub-4">
+        <svg viewBox="0 0 64 64" aria-hidden="true"><rect x="8" y="10" width="48" height="14" rx="3" fill="#d71920"/><rect x="8" y="28" width="48" height="14" rx="3" fill="#fff"/><rect x="8" y="46" width="48" height="10" rx="3" fill="#d71920"/><circle cx="16" cy="17" r="2.5" fill="#fff"/><circle cx="16" cy="35" r="2.5" fill="#111"/></svg>
+        <h3>4. Empresas de TIC e Startups</h3><span class="hint">Saiba mais ›</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ORÇAMENTO ============ -->
+<section id="orcamento" class="section">
+  <div class="container">
+    <div class="section-head">
+      <svg class="sec-ico" viewBox="0 0 96 96" aria-hidden="true"><circle cx="48" cy="48" r="38" fill="#111"/><circle cx="48" cy="48" r="30" fill="#d71920"/><text x="48" y="60" text-anchor="middle" font-family="Segoe UI, Arial" font-size="36" font-weight="800" fill="#fff">$</text></svg>
+      <div><span class="num">05</span><h2>Recursos e Orçamento</h2></div>
+    </div>
+
+    <h3 class="sub">5.1. Viabilidade Econômico-Financeira e Fontes de Receita</h3>
+    <p class="lead">A TecBras adotará um modelo de negócios sustentável, estruturado em múltiplas linhas de receitas competitivas e de elevado valor agregado:</p>
+    <div class="accordion" data-single="true">
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">a) Serviços de Mídia e Publicidade Digital Soberana</button>
+        <div class="acc-panel"><div><p>Oferta de espaço publicitário direcionado com base em contextos institucionais e geográficos, sem violar a privacidade individual ou recorrer ao perfilamento invasivo de dados.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">b) Soluções Digitais</button>
+        <div class="acc-panel"><div><p>Disponibilização de infraestrutura para armazenamento e processamento em nuvem, plataforma e serviços (<button class="term" data-term="iaas">IaaS</button>, <button class="term" data-term="paas">PaaS</button> e <button class="term" data-term="saas">SaaS</button>) mediante comercialização de licenças de ferramentas corporativas seguras de comunicação, marketing, colaboração e produtividade e modelo de IA soberana para cidadãos, órgãos da administração pública direta e indireta e para o setor privado.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">c) Serviços de Identificação, Autenticação e Autorização Premium</button>
+        <div class="acc-panel"><div><p>Integração com APIs (interfaces de aplicações) corporativas para autenticação e integração de alto nível de segurança, prevenindo fraudes no setor bancário, no e-commerce e nos serviços públicos e privados.</p></div></div>
+      </div>
+    </div>
+
+    <h3 class="sub">5.2. Estrutura Financeira Inicial</h3>
+    <div class="finance">
+      <div class="fin-box">
+        <h4>a) Aporte Inicial de Capital (Governo Federal)</h4>
+        <p>Alocação inicial de capital com financiamento através das seguintes fontes de recursos (clique para detalhar):</p>
+        <ul class="sources">
+          <li><button data-modal="fin-fndct">i. FNDCT</button></li>
+          <li><button data-modal="fin-fust">ii. Fust</button></li>
+          <li><button data-modal="fin-funttel">iii. Funttel</button></li>
+          <li><button data-modal="fin-bndes">iv. BNDES</button></li>
+          <li><button data-modal="fin-brics">v. Banco dos BRICS</button></li>
+          <li><button data-modal="fin-deb">vi. Debêntures incentivadas</button></li>
+        </ul>
+      </div>
+      <div class="fin-box red">
+        <h4>b) Abertura de Capital (IPO)</h4>
+        <svg viewBox="0 0 120 60" aria-hidden="true"><path d="M5 50l25-18 20 10 30-30 30 12" fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M95 10h15v15" fill="none" stroke="#fff" stroke-width="4"/></svg>
+        <p>Captação de recursos no mercado de capitais brasileiro (B3) para atração de investidores privados sem perda do controle acionário estatal, além de outras formas de participação.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONSOLIDAÇÃO ============ -->
+<section id="consolidacao" class="section dark">
+  <div class="container">
+    <div class="section-head">
+      <svg class="sec-ico" viewBox="0 0 96 96" aria-hidden="true"><rect x="20" y="8" width="56" height="80" rx="6" fill="#fff"/><path d="M30 26h36M30 38h36M30 50h36M30 62h22" stroke="#111" stroke-width="4" stroke-linecap="round"/><circle cx="68" cy="68" r="14" fill="#d71920"/><path d="M61 68l5 5 9-10" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <div><span class="num">06</span><h2>Proposta de Consolidação e Anteprojeto de Lei</h2></div>
+    </div>
+
+    <h3 class="sub">6.1. Modelo Societário e de Governança</h3>
+    <div class="accordion" data-single="false">
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">a) Natureza Jurídica</button>
+        <div class="acc-panel"><div><p>Sociedade de Economia Mista, sob forma de Sociedade Anônima de capital aberto.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">b) Controle Acionário</button>
+        <div class="acc-panel"><div><p>O Governo Federal deterá permanentemente no mínimo 50% mais uma das ações com direito a voto (ações ordinárias).</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">c) Mecanismos de Controle e Governança</button>
+        <div class="acc-panel"><div>
+          <ol class="roman">
+            <li>Submissão integral à Lei nº 13.303/2016 (Lei das Estatais).</li>
+            <li>Conselho de Administração constituído por membros independentes e representantes da sociedade civil, da academia e do setor produtivo de TI.</li>
+            <li>Comitê Permanente de Ética Algorítmica, Privacidade e Proteção de Dados.</li>
+            <li>Fiscalização direta do Tribunal de Contas da União (TCU) e da ANPD.</li>
+          </ol>
+        </div></div>
+      </div>
+    </div>
+
+    <h3 class="sub">6.2. Cronograma Executivo de Implementação</h3>
+    <p class="note">Selecione uma fase na linha do tempo para ver suas metas.</p>
+    <div class="timeline" id="timeline">
+      <button class="phase active" data-phase="0"><span>Fase 1</span><small>Meses 1 a 6</small></button>
+      <button class="phase" data-phase="1"><span>Fase 2</span><small>Meses 7 a 18</small></button>
+      <button class="phase" data-phase="2"><span>Fase 3</span><small>Meses 19 a 24</small></button>
+      <button class="phase" data-phase="3"><span>Fase 4</span><small>Meses 25 a 36</small></button>
+    </div>
+    <div class="phase-detail" id="phase-detail" aria-live="polite">
+      <h4>Fase 1: Marco Legal e Estruturação <em>(Meses 1 a 6)</em></h4>
+      <p>Tramitação do Projeto de Lei ou Medida Provisória, promulgação da Lei de Criação, elaboração do Estatuto Social e constituição da diretoria provisória.</p>
+    </div>
+
+    <h3 class="sub">6.3. Modelos Alternativos para Viabilização de Infraestrutura dos Datacenters</h3>
+    <div class="accordion" data-single="false">
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">6.3.1. Parcerias Público-Privadas (PPP)</button>
+        <div class="acc-panel"><div><p>Para viabilizar a infraestrutura dos datacenters que darão suporte ao funcionamento da TecBras, haveria a possibilidade de escolher alternativas de investimentos baseadas nas modalidades de Parcerias Público-Privadas (PPP) Patrocinadas ou Administrativas, conforme Lei nº 11.079/2004.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">6.3.2. Justificativa da opção por PPP</button>
+        <div class="acc-panel"><div><p>A opção pelas modalidades de investimento via PPP se justificaria em razão da complexidade e do alto volume de recursos financeiros necessários para projetos de grande porte de datacenters, que exigem longo horizonte de tempo necessário para planejamento, desenvolvimento, execução, monitoramento, controle e finalização das etapas necessárias à entrega dos resultados que se buscam alcançar.</p></div></div>
+      </div>
+      <div class="acc-item">
+        <button class="acc-btn" aria-expanded="false">6.3.3. Alternativa: Concessões Comuns</button>
+        <div class="acc-panel"><div><p>Como alternativa, para situações menos complexas e com menor horizonte de tempo para conclusão, a administração pública poderia optar pelo modelo de Concessões Comuns, conforme Lei nº 8.987/1995.</p></div></div>
+      </div>
+    </div>
+
+    <h3 class="sub">6.4. Minuta de Anteprojeto de Lei para Criação da TecBras</h3>
+    <div class="law" id="law">
+      <div class="law-head">
+        <h4>PROJETO DE LEI Nº _____, DE 2026</h4>
+        <p>Autoriza o Poder Executivo Federal a criar a empresa pública sob a forma de Sociedade de Economia Mista denominada Empresa Brasileira de Tecnologia, Mídias Sociais e Soluções Digitais S.A. – TecBras, e dá outras providências.</p>
+        <p><strong>O CONGRESSO NACIONAL decreta:</strong></p>
+        <div class="law-actions">
+          <button class="btn small" id="law-expand">Expandir todos os artigos</button>
+          <button class="btn small ghost" id="law-collapse">Recolher todos</button>
+        </div>
+      </div>
+      <div class="accordion law-acc" data-single="false">
+        <div class="acc-item"><button class="acc-btn" aria-expanded="false">Art. 1º</button>
+          <div class="acc-panel"><div><p>Fica o Poder Executivo Federal autorizado a criar a Empresa Brasileira de Tecnologia, Mídias Sociais e Soluções Digitais S.A. – TecBras S.A., sociedade de economia mista e capital aberto, vinculada ao poder executivo federal, com sede e foro no Distrito Federal.</p></div></div></div>
+        <div class="acc-item"><button class="acc-btn" aria-expanded="false">Art. 2º</button>
+          <div class="acc-panel"><div><p>A TecBras S.A. tem por finalidade social prover infraestrutura, soluções tecnológicas, armazenamento de dados em nuvem, big data, plataforma de Inteligência Artificial (IA) soberana, aplicações de mídias sociais, soluções digitais, serviços de comunicação instantânea e processamento de dados digitais, visando assegurar a soberania digital nacional, a segurança das informações públicas e a proteção dos dados pessoais dos cidadãos brasileiros e organizações nacionais.</p></div></div></div>
+        <div class="acc-item"><button class="acc-btn" aria-expanded="false">Art. 3º</button>
+          <div class="acc-panel"><div><p>A União manterá, em qualquer circunstância, o controle acionário da TecBras, detendo a maioria das ações ordinárias com direito a voto, nos termos da legislação vigente.</p></div></div></div>
+        <div class="acc-item"><button class="acc-btn" aria-expanded="false">Art. 4º</button>
+          <div class="acc-panel"><div><p>Constituem objetivos fundamentais da TecBras:</p>
+            <p>I – Desenvolver e operar plataformas de comunicação digital, inteligência artificial, armazenamento em nuvem, big data, mensageria e mídias sociais cujos datacenters e infraestrutura técnica estejam situados integralmente no território nacional;</p>
+            <p>II – Assegurar o cumprimento irrestrito das disposições da Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais – LGPD) e demais normas nacionais de proteção à privacidade;</p>
+            <p>III – Atuar em cooperação técnica com órgãos e entidades da administração pública federal direta e indireta, em todas as esferas de poder, otimizando o processamento de dados e a segurança da informação pública;</p>
+            <p>IV – Garantir a transparência algorítmica e combater a difusão automatizada de conteúdos ilícitos e desinformativos, em estrita observância às garantias constitucionais da liberdade de expressão.</p></div></div></div>
+        <div class="acc-item"><button class="acc-btn" aria-expanded="false">Art. 5º</button>
+          <div class="acc-panel"><div><p>O capital social inicial da TecBras será subscrito integralmente pela União, autorizado o aumento posterior mediante subscrição pública de ações na Bolsa de Valores do Brasil (B3).</p></div></div></div>
+        <div class="acc-item"><button class="acc-btn" aria-expanded="false">Art. 6º</button>
+          <div class="acc-panel"><div><p>A governança da TecBras observará as disposições da Lei nº 13.303, de 30 de junho de 2016, devendo contar em sua estrutura estatutária com um Comitê de Ética Algorítmica e Proteção de Dados com participação da sociedade civil e da comunidade acadêmica.</p></div></div></div>
+        <div class="acc-item"><button class="acc-btn" aria-expanded="false">Art. 7º</button>
+          <div class="acc-panel"><div><p>Esta Lei entra em vigor na data de sua publicação.</p></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ RODAPÉ ============ -->
+<footer class="footer">
+  <div class="container foot-grid">
+    <div>
+      <h2>Tec<span>Bras</span> S.A.</h2>
+      <p>Empresa Brasileira de Tecnologia, Mídias Sociais e Soluções Digitais S.A.</p>
+      <p>Aplicação web de apresentação do projeto de criação da TecBras, voltada à soberania digital nacional, à proteção de dados e à autodeterminação informativa.</p>
+    </div>
+    <div>
+      <h3>Navegação</h3>
+      <ul>
+        <li><a href="#cenario">Cenário Atual</a></li>
+        <li><a href="#problema">O Problema</a></li>
+        <li><a href="#solucao">Solução</a></li>
+        <li><a href="#publico">Público-Alvo</a></li>
+        <li><a href="#orcamento">Recursos e Orçamento</a></li>
+        <li><a href="#consolidacao">Consolidação</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="copy">© 2026 TecBras S.A. Todos os direitos reservados <strong> à RED-e Soluções Ltda.</strong> Documento de proposta – 2026.</div>
+</footer>
+
+<button class="to-top" id="to-top" aria-label="Voltar ao topo">↑</button>
+
+<!-- ============ MODAL ============ -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-backdrop" data-close></div>
+  <div class="modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <button class="modal-close" data-close aria-label="Fechar">×</button>
+    <h3 id="modal-title"></h3>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
