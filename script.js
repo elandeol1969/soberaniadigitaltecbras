@@ -25,7 +25,7 @@
     bigdata: ['Big Data', 'Big Data refere-se a conjuntos de dados extremamente grandes, complexos e em rápido crescimento que as ferramentas tradicionais (como planilhas ou bancos de dados comuns) não conseguem armazenar, gerenciar ou analisar.'],
     tic: ['TIC', 'TIC significa Tecnologia da Informação e Comunicação.'],
     bigtechs: ['Big Techs', 'As Big Techs (ou tech giants) são as maiores e mais influentes empresas de tecnologia do mundo, com forte domínio de mercado, escala global e grande capacidade de influenciar a economia, a cultura e o cotidiano da sociedade.'],
-    vigilancia: ['Capitalismo de Vigilância', 'Capitalismo de Vigilância é um modelo econômico em que a experiência humana e os dados comportamentais são extraídos, processados e monetizados por grandes empresas de tecnologia.'],
+    vigilancia: ['Capitalismo de Vigilância', 'Esse termo foi popularizado pela acadêmica e professora de Harvard, Shoshana Zuboff. Em sua tese sobre o tema, a autora afirma que o Capitalismo de Vigilância é um modelo econômico em que a experiência humana e os dados comportamentais são extraídos, processados e monetizados por grandes empresas de tecnologia.'],
     iaas: ['IaaS', 'IaaS – Infraestrutura como Serviço.'],
     paas: ['PaaS', 'PaaS – Plataforma como Serviço.'],
     saas: ['SaaS', 'SaaS – Software como Serviço.']
